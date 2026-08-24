@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Roamspan — Sabes cuántos días Schengen te quedan</title>
-  <meta name="description" content="La regla oficial 90/180 en el iPhone. Viajes ilimitados, sin cuenta. El itinerario no sale del dispositivo." />
+  <title>Roamspan — No te pases de los 90 días Schengen</title>
+  <meta name="description" content="La regla oficial de 90 días en cualquier periodo de 180, en vivo en el iPhone. Viajes ilimitados. Sin cuenta. El itinerario no sale del dispositivo." />
   <link rel="canonical" href="https://roamspan.app/es/" />
   <link rel="alternate" hreflang="en" href="https://roamspan.app/" />
   <link rel="alternate" hreflang="es" href="https://roamspan.app/es/" />
   <link rel="alternate" hreflang="x-default" href="https://roamspan.app/" />
   <meta name="apple-itunes-app" content="app-id=6804630253, affiliate-data=ct=web_es" />
   <meta property="og:locale" content="es_ES" />
-  <meta property="og:title" content="Roamspan — Sabes cuántos días Schengen te quedan" />
+  <meta property="og:title" content="Roamspan — No te pases de los 90 días Schengen" />
   <meta property="og:image" content="https://roamspan.app/og.jpg" />
   <link rel="icon" href="/favicon.png" />
   <link rel="apple-touch-icon" href="/icon.png" />
@@ -21,6 +21,13 @@
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+  <div class="bg" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+    <div class="grain"></div>
+  </div>
+
   <header class="nav">
     <div class="wrap nav-inner">
       <a class="brand" href="/es/"><img src="/icon.png" width="32" height="32" alt="" />Roamspan</a>
@@ -28,67 +35,88 @@
         <a href="#how">Cómo funciona</a>
         <a href="#pro">Pro</a>
         <a href="/" class="lang" hreflang="en">EN</a>
-        <a class="btn" href="https://apps.apple.com/app/id6804630253">Descargar</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6804630253">Descargar</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="wrap hero">
-      <div>
-        <p class="kicker">iPhone · Schengen 90/180</p>
-        <h1>Sabes exactamente cuántos días te quedan.</h1>
-        <p class="lede">La regla oficial de 90 días en cualquier periodo de 180, en el iPhone. Viajes ilimitados. Sin cuenta. El itinerario no sale del dispositivo.</p>
+      <div class="hero-copy">
+        <p class="kicker">Para iPhone · estancia corta Schengen</p>
+        <h1>No te pases de los 90 días Schengen.</h1>
+        <p class="lede">La regla oficial de 90 días en cualquier periodo de 180, en vivo en tu iPhone. Añade cada estancia. Mira los días que te quedan en el mapa. Sin cuenta: tus viajes no salen del dispositivo.</p>
+        <ul class="chips">
+          <li>Recuento 90/180 gratis</li>
+          <li>Sin cuenta</li>
+          <li>Solo en el dispositivo</li>
+        </ul>
         <div class="cta-row">
-          <a class="btn" href="https://apps.apple.com/app/id6804630253">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.7 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.6.9s-1.9-1-3.1-.9c-1.6 0-3.1 1-3.9 2.4-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.7 2.5 3 2.4 1.2-.1 1.6-.7 3.1-.7s1.8.7 3.1.7 2-.1 3-2.3c1.1-1.3 1.5-2.5 1.5-2.6-.1 0-2.8-1.1-2.9-4.3zM14.5 5.8c.6-.8 1.1-1.9.9-3-.9 0-2 .6-2.6 1.3-.6.7-1.1 1.8-.9 2.8 1 .1 2-.5 2.6-1.1z"/></svg>
-            Descargar en App Store
+          <a class="store-badge" href="https://apps.apple.com/app/id6804630253">
+            <img src="/badge-es.svg" alt="Descargar en App Store" height="52" width="156" />
           </a>
+          <div class="scan">
+            <img src="/qr.svg" width="72" height="72" alt="Código QR a App Store" />
+            <span>¿En un ordenador? Escanea con el iPhone.</span>
+          </div>
         </div>
-        <p class="fine">Solo iPhone. El recuento 90/180 es gratis. Planner y PDF son Pro.</p>
+        <p class="fine">El recuento 90/180 es gratis. Planner y PDF son Pro. Cancela en Ajustes de Apple.</p>
       </div>
-      <div class="phone" aria-hidden="true">
-        <img src="/app-home.jpg" alt="" width="390" height="800" />
+      <div class="stage">
+        <div class="phone">
+          <img src="/app-home.jpg" alt="Inicio de Roamspan: 90 días disponibles sobre el mapa Schengen" width="1206" height="2622" />
+        </div>
       </div>
     </section>
 
-    <section class="wrap bento" id="how">
-      <article class="card wide">
-        <h2>90 en 180, bien hecho.</h2>
-        <p>Entrada y salida cuentan. Los solapes no se duplican. Ventana rolling D−179…D — la regla oficial, sobre el mapa.</p>
+    <section class="wrap steps" id="how">
+      <article class="step">
+        <p class="n">01</p>
+        <h2>Anota cada estancia</h2>
+        <p>País, entrada, salida — o «sigo aquí». Viajes ilimitados. Sin crear cuenta.</p>
       </article>
-      <article class="card">
-        <h3>Viajes ilimitados</h3>
-        <p>Añade cada estancia. Mapa, HUD e historial son gratis. Sin crear cuenta.</p>
+      <article class="step">
+        <p class="n">02</p>
+        <h2>Mira el recuento</h2>
+        <p>Entrada y salida cuentan. Los solapes, una vez. Ventana rolling D−179…hoy — la regla oficial, sobre el mapa.</p>
       </article>
-      <article class="card">
-        <h3>En el dispositivo</h3>
-        <p>Fechas, países y notas viven en este iPhone. Desinstalar la app los borra.</p>
+      <article class="step">
+        <p class="n">03</p>
+        <h2>Planifica el siguiente</h2>
+        <p>Pro comprueba si el próximo viaje encaja antes de reservar, y exporta un PDF.</p>
       </article>
     </section>
 
     <section class="wrap bento" id="pro">
       <article class="card">
-        <h3>Gratis</h3>
-        <p class="price">0 € <span>/ para siempre</span></p>
-        <p>Viajes, mapa, días restantes, historial. El recuento oficial nunca se cobra.</p>
+        <h3>Gratis, para siempre</h3>
+        <p class="price">0 € <span>/ el recuento oficial</span></p>
+        <ul>
+          <li>Viajes ilimitados</li>
+          <li>Mapa en vivo y días restantes</li>
+          <li>Historial de cada estancia</li>
+        </ul>
       </article>
-      <article class="card wide">
+      <article class="card">
         <h3>Roamspan Pro</h3>
         <p class="price">14,99 € <span>/ año · 7 días de prueba</span></p>
-        <p>Planner: comprueba si el próximo viaje encaja. PDF para tus registros. También 3,99 € / mes. Cancela en Ajustes de Apple.</p>
+        <ul>
+          <li>Planner: ¿encaja este viaje?</li>
+          <li>PDF de tus estancias</li>
+          <li>También 3,99 € / mes. Cancela cuando quieras en Ajustes de Apple.</li>
+        </ul>
       </article>
     </section>
 
     <section class="wrap faq">
       <h2>Preguntas</h2>
       <details open>
-        <summary>¿Es gratis?</summary>
-        <p>Sí para el recuento 90/180, viajes ilimitados, mapa e historial. Planner y PDF son Pro.</p>
+        <summary>¿El recuento 90/180 es gratis?</summary>
+        <p>Sí. Viajes, mapa, días restantes e historial son gratis. Planner y PDF son Pro.</p>
       </details>
       <details>
         <summary>¿Hace falta cuenta?</summary>
-        <p>No. No hay inicio de sesión. Los viajes se quedan en el iPhone.</p>
+        <p>No. No hay inicio de sesión. Fechas, países y notas viven en este iPhone. Desinstalar la app los borra.</p>
       </details>
       <details>
         <summary>¿Es asesoramiento legal?</summary>
@@ -96,8 +124,16 @@
       </details>
       <details>
         <summary>¿Android?</summary>
-        <p>No en V1. Roamspan es solo iPhone por ahora.</p>
+        <p>No en V1. Roamspan es para iPhone.</p>
       </details>
+    </section>
+
+    <section class="wrap end">
+      <h2>Cuéntalo antes de volar.</h2>
+      <p>90/180 gratis en el iPhone. Sin cuenta.</p>
+      <div class="cta-row">
+        <a class="nav-cta" href="https://apps.apple.com/app/id6804630253">Abrir en App Store</a>
+      </div>
     </section>
   </main>
 
@@ -110,6 +146,7 @@
       ·
       <a href="/" hreflang="en">English</a>
     </span>
+    <p class="legal-note">Apple, the Apple logo and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.</p>
   </footer>
 </body>
 </html>
