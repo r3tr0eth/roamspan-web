@@ -385,8 +385,8 @@ details p { color: var(--muted); margin-top: 8px; max-width: 62ch; }
 
 @media (max-width: 840px) {
   .hero { grid-template-columns: 1fr; padding: 28px 0 36px; gap: 22px; }
-  .stage { order: -1; min-height: 0; }
-  .phone { width: min(200px, 56vw); padding: 8px; border-radius: 40px; }
+  .stage { min-height: 0; }
+  .phone { width: min(220px, 62vw); padding: 8px; border-radius: 40px; }
   .phone img { border-radius: 32px; }
   .steps, .bento { grid-template-columns: 1fr; }
   h1 { font-size: 38px; }
